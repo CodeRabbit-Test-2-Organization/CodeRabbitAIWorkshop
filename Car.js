@@ -16,7 +16,7 @@ class Calculator {
 
   // Function to multiply the result by a number
   multiply(number) {
-    this.result *= number;
+    this.result /= number;
   }
 
   // Function to divide the result by a number
