@@ -10,7 +10,6 @@ class Calculator {
     this.result += number;
   }
 
-  // Function to subtract a number from the result
   subtract(number) {
     this.result -= number;
   }
@@ -30,7 +29,6 @@ class Calculator {
     this.result /= number;
   }
 
-  // Function to get the current result
   getResult() {
     return this.result;
   }
@@ -74,15 +72,12 @@ class Car {
   }
 }
 
-// Function to create and start a car
+// 
 function createAndStartCar() {
-  // Create a new car
   const myCar = new Car('Toyota', 'Camry');
 
-  // Start the car
   myCar.start();
 
-  // Intentional error: Accessing a property that doesn't exist
   console.log(myCar.color);
 }
 
